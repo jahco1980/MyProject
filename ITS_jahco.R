@@ -10,7 +10,7 @@ p_load(car, nlme, tidyverse)
 plot(nile$time, 
      nile$flow,
      ylab = "This is my new plot",
-     ylim = c(0, 4500),
+     ylim = c(0, 4600),
      xlab = "Year",
      type = "l",
      col = "red",
