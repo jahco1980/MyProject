@@ -3,13 +3,13 @@ nile <- read_csv("~/Desktop/MyProject/nile.csv")
 
 
 # Libraries ---------------------------------------------------------------
-p_load(car, nlme)
+p_load(car, nlme, tidyverse)
 
 
 # Plot --------------------------------------------------------------------
 plot(nile$time, 
      nile$flow,
-     ylab = "Water Flow",
+     ylab = "This is my new plot",
      ylim = c(0, 4500),
      xlab = "Year",
      type = "l",
